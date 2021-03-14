@@ -103,6 +103,9 @@ body{
     display: flex;
     justify-content: center;
 }
+.main_white img{
+    width: 20%;
+}
 .bottom_text{
     display: flex;
     justify-content: center;
@@ -320,6 +323,9 @@ body{
     .cont_left p{
         font-size: 15px;
     }
+    .main_white img{
+        width: 30%;
+    }
 }
 @media screen and (max-width: 800px){
     .main2_one::before{
@@ -369,6 +375,9 @@ body{
     }
     .services_cards{
         width: 90%;
+    }
+    .main_white img{
+        width: 40%;
     }
 }
 @media screen and (max-width: 570px){
@@ -426,6 +435,9 @@ body{
     .cont_right iframe{
         border-radius: 50%;
     }
+    .main_white img{
+        width: 50%;
+    }
 }
 @media screen and (max-width: 450px){
     .header2_left ul li a{
@@ -440,6 +452,9 @@ body{
     .cont_left p{
         font-size: 13px;
     }
+    .main_white img{
+        width: 60%;
+    }
 }
 @media screen and (max-width: 400px){
     .header2_right form label input {
@@ -452,6 +467,9 @@ body{
     }
     .services_cards div h1{
         font-size: 12px;
+    }
+    .main_white img{
+        width: 70%;
     }
 }
 @media screen and (max-width: 340px){
@@ -474,5 +492,8 @@ body{
     }
     .header2_right form label input {
         width: 70px;
+    }
+    .main_white img{
+        width: 85%;
     }
 }
